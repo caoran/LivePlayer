@@ -45,7 +45,7 @@ public class LiveActivity extends AppCompatActivity {
 //            rtmpUrl = createFile();
 //        }
 
-        rtmpUrl = "rtmp://video-center.alivecdn.com/dc/test?vhost=livepush.netwin.cn";
+
 
         initLiveConfig();
         mLiveUI = new LiveUI(this,mLiveCameraView,rtmpUrl);
