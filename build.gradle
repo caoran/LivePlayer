@@ -2,6 +2,7 @@
 
 buildscript {
     repositories {
+        google()//TODO 20180610 add
         jcenter()
     }
     dependencies {
@@ -15,6 +16,7 @@ buildscript {
 
 allprojects {
     repositories {
+        google()//TODO 20180610 add
         jcenter()
     }
 }
