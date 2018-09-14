@@ -62,7 +62,7 @@ public class LiveActivity extends AppCompatActivity {
     public void initLiveConfig() {
         mLiveCameraView = (StreamLiveCameraView) findViewById(R.id.stream_previewView);
 
-        //参数配置 start ,VIDEO_WIDTH：640*360；VIDEO_BITRATE：600 * 1024;VIDEO_FPS：20；VIDEO_GOP：2（gop 关键帧间隔）
+        //TODO 参数配置 start ,VIDEO_WIDTH：640*360；VIDEO_BITRATE：600 * 1024;VIDEO_FPS：20；VIDEO_GOP：2（gop 关键帧间隔）
         streamAVOption = new StreamAVOption();
         streamAVOption.streamUrl = rtmpUrl;
         //参数配置 end
